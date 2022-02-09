@@ -1,4 +1,58 @@
+@media screen and (max-width:800px) { 
+    .header_left img{ 
+        width: 90%;
+        height: 90%; 
+       margin-top: 15px;
+       margin-left: 5px;
+        padding: 20px;
+    }
+    .header_right h1 {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .header_right p {
+        color: #fff;
+        font-size:23px;
+    }
+    .btn{
+        width: 130px;
+        height: 40px;
+        background: #FC0A7E;
+        
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+}
+
+
 @media screen and (max-width:600px) { 
+    
+}
+
+
+
+@media screen and (max-width:600px) { 
+    .headerText_card{
+        width: 70%; 
+        height: 100%;
+        margin: auto;
+        position: relative;
+        top: 90px  ;
+         left:0 ;
+        z-index: 10;
+        
+    }
+    .header_left img{ 
+        width: 110%;
+        height: 90%; 
+       margin-top: 15px;
+       margin-left: -25px;
+        padding: 20px;
+    }
     .navigation_bar{
         width: 100%;
         height: 65px;
@@ -16,6 +70,7 @@
         width: 100%;
         height: 100vh;
         transition: .5s;
+        z-index: 10;
     }
     .navLogo{
         width: 25%;

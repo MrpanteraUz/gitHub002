@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header{
@@ -10,6 +11,9 @@ header{
     background: url("./image/Rectangle.png")  center/cover ;
 }
 
+.header_card{
+
+}
 #inputCheckbox{
     display: none;
 }
@@ -55,4 +59,59 @@ header{
     list-style: none;
     color: #fff;
     font-size: 13px;
+}
+
+.header_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header_right{
+    width: 50%;
+    height: 100%;
+    line-height: 1.4;
+}
+.headerText_card{
+    width: 70%; 
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 10;
+    
+}
+.header_left {
+    width: 50%;
+    height: 100%;
+}
+
+.header_left img{ 
+    width: 75%;
+    height: 90%;
+   margin-left: 50px; 
+   margin-top: 15px;
+    padding: 20px;
+}
+
+.header_right h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+}
+.header_right p {
+    color: #fff;
+    font-size:30px;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    background: #FC0A7E;
+    
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
 }
