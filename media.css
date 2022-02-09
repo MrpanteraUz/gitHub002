@@ -1,4 +1,13 @@
 @media screen and (max-width:800px) { 
+    .headerText_card{
+        width: 70%; 
+        height: 100%;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        left: 50px;
+        
+    }
     .header_left img{ 
         width: 90%;
         height: 90%; 
@@ -36,15 +45,29 @@
 
 
 @media screen and (max-width:600px) { 
+    .header_left {
+        width: 70%;
+        height: 100%;
+    }.header_right {
+        width: 30%;
+        height: 100%;
+        line-height: 1.1;
+    }
     .headerText_card{
-        width: 70%; 
+        width: 100%; 
         height: 100%;
         margin: auto;
         position: relative;
-        top: 90px  ;
-         left:0 ;
-        z-index: 10;
+        top: 10px  ;
+        left:20px ;
+        text-align: center;
         
+    }
+    .header_right p {
+        color: #fff;
+        width: 100%;
+        position: relative;
+        z-index:5 ;
     }
     .header_left img{ 
         width: 110%;
@@ -62,7 +85,7 @@
     .collection{
         position: fixed;
         top:  -120%;
-        background: #252526; 
+        background: #252526f5; 
         border: none;
         flex-direction: column;
         align-items: center;
@@ -111,8 +134,14 @@
     }
 
 }
-@media screen and (max-width:600px) { 
-    
+@media screen and (max-width:350px) { 
+    .header_right h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+    .header_right{
+        line-height: 1.2;
+    }
 }
 @media screen and (max-width:600px) { 
     
