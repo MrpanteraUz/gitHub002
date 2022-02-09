@@ -7,7 +7,7 @@
    
     .collection{
         position: fixed;
-        top:  -100%;
+        top:  -120%;
         background: #252526; 
         border: none;
         flex-direction: column;
