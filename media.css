@@ -1,0 +1,67 @@
+@media screen and (max-width:600px) { 
+    .navigation_bar{
+        width: 100%;
+        height: 65px;
+        background: #252526; 
+    }
+   
+    .collection{
+        position: fixed;
+        top:  -100%;
+        background: #252526; 
+        border: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100vh;
+        transition: .5s;
+    }
+    .navLogo{
+        width: 25%;
+        height: 100%;
+    }
+    .navLogo img {
+        width: 70px;
+    }
+    .item_collection{
+        padding: 30px ;
+    }
+    #menuOpen{
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        padding: 25px;
+
+    }
+
+    #inputCheckbox:checked ~ .collection{
+        top: 60px;
+        
+    }
+
+
+    #inputCheckbox:checked ~ #labelCheckbox #menuClose {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        padding: 25px;
+ 
+    }
+
+    #inputCheckbox:checked ~ #labelCheckbox #menuOpen {
+        display: none;
+        padding: 40px;
+
+    }
+
+}
+@media screen and (max-width:600px) { 
+    
+}
+@media screen and (max-width:600px) { 
+    
+}
+@media screen and (max-width:600px) { 
+    
+}
