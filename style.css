@@ -12,6 +12,9 @@ header{
     overflow: hidden;
 }
 
+.header_card{
+
+}
 #inputCheckbox{
     display: none;
 }

@@ -1,7 +1,7 @@
 @media screen and (max-width:800px) { 
     header{
         width: 100%;
-        height: 400px;
+        height: auto;
     }
     .header_text{
         width: 100%;
@@ -13,7 +13,7 @@
         height: 100%;
         margin: auto;
         position: relative;
-        top: 30px;
+        top: 0px;
         left: 50px;
         
     }
@@ -27,10 +27,9 @@
     height: 100%;
 }
     .header_left img{ 
-        width: 100%;
+        width: 90%;
         height: 100%; 
-       margin-top: 15px;
-       margin-left: 5px;
+        margin-left:80px;
         padding: 20px;
     }
     .header_right h1 {
@@ -52,6 +51,7 @@
         color: #fff;
         border-radius: 3px;
         margin-top: 10px;
+        margin-left: 30px;
     }
 }
 @media screen and (max-width:600px) { 
@@ -69,8 +69,8 @@
         height: 100%;
         margin: auto;
         position: relative;
-        top: 10px  ;
-        left:20px ;
+        top: 20px  ;
+        left: 0;
         text-align: center;
         
     }
@@ -83,8 +83,8 @@
     .header_left img{ 
         width: 100%;
         height: 100%; 
-       margin-top: 15px;
-       margin-left: 5px;
+       margin-left: 45px;
+       margin-top: 10px;
         padding: 20px;
     }
 
