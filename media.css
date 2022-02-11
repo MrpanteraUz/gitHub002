@@ -13,7 +13,7 @@
         height: 100%;
         margin: auto;
         position: relative;
-        top: 0px;
+        top:10px;
         left: 50px;
         
     }
@@ -40,6 +40,8 @@
     .header_right p {
         color: #fff;
         font-size:23px;
+        width: 250px;
+        text-align: center;
     }
     .btn{
         width: 130px;
@@ -51,10 +53,35 @@
         color: #fff;
         border-radius: 3px;
         margin-top: 10px;
-        margin-left: 30px;
     }
 }
 @media screen and (max-width:600px) { 
+
+    .menu_background {
+        width: 100%;
+        height: 300px;
+        background: #1B1B1B;
+        position: relative;
+    }
+
+    .img_bag img {
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        position: absolute;
+        top: 100px;
+    }
+    .bag_text {
+    width: 100%;
+    height: 100px;
+        padding-bottom: 30px;
+}
+
+    .paragaph2{
+        font-size: 16px;
+        color: #fff;
+    }
+
    .header_left {
         width: 70%;
         height: 100%;
@@ -70,13 +97,12 @@
         margin: auto;
         position: relative;
         top: 20px  ;
-        left: 0;
+        left: 10;
         text-align: center;
         
     }
     .header_right p {
         color: #fff;
-        width: 100%;
         position: relative;
         z-index:5 ;
     }
@@ -106,6 +132,15 @@
         height: 100vh;
         transition: .5s;
         z-index: 10;
+    }
+    
+    .navigation_bar{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+    header{
+        margin-top:60px;
     }
     .navLogo{
         width: 25%;
@@ -147,6 +182,16 @@
 
 }
 @media screen and (max-width:350px) { 
+
+    .headerText_card{
+        width: 100%; 
+        height: 100%;
+        position: relative;
+        top: 10px  ;
+        left: 5px;
+        
+    }
+    .he
     .header_right h1 {
         color: #fff;
         font-size: 40px;
