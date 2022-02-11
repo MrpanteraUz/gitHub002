@@ -152,3 +152,55 @@ header{
     position: absolute;
     top: 150px;
 }
+
+.conten_card{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.card_group{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.card_item_left{
+    width: 50%;
+    height: auto;
+}
+.card_item_right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.card_item_right img{
+    width: 45%;
+    height: 450px;
+    display: flex;
+    
+}
+.asdsdsd{
+    width: 100%;
+    height: 20px;
+}
+
+.card_txt{
+    width: 50% ;
+    height: 100%;
+    margin: auto;
+    padding-top: 140px;
+    text-align: center;
+    line-height:1.3 ;
+}
+.card_txt p { 
+    color: #555;
+    font-size: 12px;
+}
+
+.card_txt label {
+    color: #555;
+    font-size: 20px;
+}
