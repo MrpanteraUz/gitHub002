@@ -294,8 +294,61 @@ header{
     height: 300px;
     margin-left: 5%;
 }
+.menu_text{
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.4;
+    color: #555;
+    font-size: 14px;
+}
+.cards_liner{
+ width: 70%;
+ height: 30px;
+ margin: auto;
+}
+.cards_liner  img {
+    width: 100%;
+    height: 100%;
+   }
 
+   .back_footer{
+       width: 100%;
+       height: 450px;
+       margin-top: 30px;
+       background: url("./image/baclground2.png") no-repeat center/cover;
+   }
+.footer_gradient{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(65deg,#C60865,#920D64,#751678,#6C1A82,#671D86);
+}
+.gradient_text{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 120px;
+    color: #fff;
 
+}
+
+.btn_txt{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_footer{
+    width: 40%;
+    height: 100%;
+    padding-top: 14px;
+}
 
 
 
