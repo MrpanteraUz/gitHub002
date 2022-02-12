@@ -240,6 +240,7 @@ header{
     width: 80%;
     height: auto;
     margin: auto;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -260,3 +261,46 @@ header{
     padding-top: 5px;
     font-size: 16px;
 }
+.cantent_menu{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.content_group{
+    width: 100% ;
+    height: 300px;
+    display: flex;
+}
+.content_texts{
+    width: 50%;
+    height: auto;
+    text-align: start;
+    padding: 10px 20px;
+    line-height: 1.6;
+
+}
+.content_texts p {
+    font-size: 12px;
+    color: #555;
+}
+.content_images{
+    width: 50%;
+    height: auto;
+
+}
+.content_images img{
+    width: 70%;
+    height: 300px;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
