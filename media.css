@@ -287,6 +287,28 @@
     }
 
 }
+
+@media screen and (max-width:400px){
+
+    .content_cards{
+        width: 100%;
+        height: auto;
+    }
+    .cards_item{
+        width: 120px;
+        height: 60px;
+    }
+    .number_p{
+        font-size:24px;
+    }
+    .text_p{
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+
+
+}
 @media screen and (max-width:350px) { 
 
     .cards_group{
