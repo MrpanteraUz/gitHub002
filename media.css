@@ -292,7 +292,7 @@
     .cards_group{
         display: flex;
         flex-direction: column;
-        height: 350px;
+        height: 500px;
     }
 
     .cards_text{
@@ -303,8 +303,10 @@
     .cards_img{
        order: 1;
        margin-left: 20%;
+       width: 50%;
+       height: 50%;
     }
-
+    
     .boxs{
         width: 90%;
         height:200px;
