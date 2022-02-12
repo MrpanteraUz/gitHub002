@@ -214,3 +214,41 @@ header{
     width: 55%;
     height: 400px;
 }
+
+.card_boxs{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 800px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.boxs{
+    width: 250px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+    
+}
+.boxs_text{
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 40px;
+}
+.boxs_text p {
+    font-size: 11px;
+    color: #555;
+}
+.boxs_text i {
+    font-size: 31px;
+    padding-bottom: 20px;
+    color: rgb(216, 29, 160);
+}

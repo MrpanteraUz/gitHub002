@@ -78,7 +78,13 @@
     }
 }
 @media screen and (max-width:600px) { 
-   
+    .card_boxs{
+        width: 100%;
+        height: auto;
+        margin-top: 850px;
+    }
+    
+
     .salomm {
         order: 2;
     }
@@ -250,8 +256,13 @@
 
 }
 @media screen and (max-width:350px) { 
-
-
+    .boxs{
+        width: 90%;
+        height:200px;
+    }
+    .card_boxs{
+        margin-top: 900px;
+    }
     .card_item_left {
         width: 100%;
         margin-top: -100px;
