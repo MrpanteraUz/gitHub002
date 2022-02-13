@@ -61,6 +61,12 @@ header{
     color: #fff;
     font-size: 13px;
 }
+.item_collection{
+    border: 1px solid red;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: .7s;
+}
 
 .header_text{
     width: 100%;
@@ -93,8 +99,13 @@ header{
    margin-left: 50px; 
    margin-top: 15px;
     padding: 20px;
+    transition: .5s;
 }
-
+.header_left:hover img{ 
+    width: 75%;
+    height: 90%;
+    transform: scale(1.1);
+}
 .header_right h1 {
     color: #fff;
     font-size: 80px;
@@ -230,6 +241,14 @@ header{
     width: 50%;
     height: 100%;
     display: flex;
+    transition: .5s;
+
+    
+}
+.cards_img:hover img{
+    width: 50%;
+    height: 100%;
+    transform: scale(1.1);
 
     
 }
@@ -296,6 +315,12 @@ header{
     width: 70%;
     height: 300px;
     margin-left: 5%;
+    transition: .5s;
+}
+.content_images:hover img{
+    width: 70%;
+    height: 300px;
+    transform: scale(1.1);
 }
 .menu_text{
     width: 40%;
@@ -352,6 +377,19 @@ header{
     height: 100%;
     padding-top: 14px;
     border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.footer_btn{
+    width: 40%;
+    height: 100%;
+    padding-top: 14px;
+    border-radius: 5px;
+    border: 1px solid #8d25b9;
+}
+
+.btn_footer:hover{
+    border: 1px solid  ;
 }
 
 footer{
@@ -400,9 +438,19 @@ form input{
     font-size: 11px;
     color: #555;
     list-style: none;
+    border: 1px solid none;
+    padding: 10px;
+    padding-top: 12px;
+    transition: .5s;
 
 }
+.coll_items:hover {
+    border: 1px solid #fff;
+}
 footer:hover {
+    border: 1px solid #fff;
+}
+.item_collection:hover {
     border: 1px solid #fff;
 }
 
